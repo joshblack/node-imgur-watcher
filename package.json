@@ -1,18 +1,13 @@
 {
-  "name": "node-gfycat",
-  "version": "0.0.0",
-  "description": "",
+  "name": "node-imgur",
+  "version": "0.0.1",
+  "description": "Monitor a directory and upload various file types to Imgur automatically.",
   "main": "index.js",
   "author": "Joshua Black <joshuatblack@ufl.edu>",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^2.3.2",
     "chokidar": "^0.8.4",
-    "passport-imgur": "0.0.2",
-    "request": "^2.44.0",
-    "require": "^0.5.0"
-  },
-  "devDependencies": {
-    "passport": "^0.2.1"
+    "request": "^2.44.0"
   }
 }
